@@ -1,0 +1,134 @@
+.coursesCard{
+    height: auto;
+    margin-top: 20px;
+}
+
+.coursesCard .items{
+    padding: 3px;
+}
+
+.coursesCard .shadows {
+    box-shadow: 0 5px 25px -2px rgba(87, 74, 74, 0.3);
+    background-color: #fff;
+  }
+.coursesCard  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+/* .coursesCard img:hover{
+    transform: translate3d(0px,0px,0px) scale3d(1,1,1) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    transform-style: preserve-3d;
+    
+} */
+
+.coursesCard .text {
+    padding: 20px 20px;
+}
+
+.coursesCard .courseDate{
+    font-weight: 600;
+    color: #59617b;
+    line-height: 1.53;
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+.coursesCard h1{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 3px 0px 10px 0px;
+  transition: 0.5s;
+  
+}
+
+.coursesCard h1:hover{
+    cursor: pointer;
+    color: #1eb2a6;
+}
+
+.coursesCard .coursedetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.coursesCard .lesson{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: #59617b;
+}
+
+.coursesCard .iconCap{
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.coursesCard .stars{
+    color: #1eb2a6;
+}
+
+.coursesCard .professorname{
+    text-transform: capitalize;
+}
+.coursesCard .textcourse{
+    display: flex;
+    gap: 2px;
+}
+
+.coursesCard .courseprice{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.coursesCard .price{
+    font-weight: 600;
+    font-size: 18px;
+    color: #59617b;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.coursesCard .buyCourse{
+    display: flex;
+    align-items: center;
+    color: #1eb2a6;
+    gap: 8px;
+    cursor: pointer;
+}
+.coursesCard .buyCourse:hover{
+    cursor: pointer;
+    color: #59617b;
+    transition: all;
+
+}
+.coursesCard .cart{
+    padding-top: 15px;
+}
+
+.coursesCard .carttext{
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}

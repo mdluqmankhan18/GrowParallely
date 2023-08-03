@@ -1,0 +1,80 @@
+.journals{
+    height: auto;
+}
+
+.journals .item{
+    padding: 10px;
+    margin-right: 6px
+}
+
+.journals .items{
+    padding: 5px;
+}
+
+.journals img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.journals .admin{
+    padding:  6px;
+    gap: 5px;
+    color: #59617b;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.journals .icons{
+    color: #1eb2a6;
+}
+
+.journals .text{
+    margin: 2px;
+}
+
+.journals h2{
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 8px;
+    margin-left: 6px;
+}
+
+.journals p{
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 8px;
+    margin-left: 6px;
+    line-height: 1.5;
+    color: #59617b;
+    padding-bottom: 8px;
+}
+
+.journals .slick-dots li.slick-active button:before {
+    color: #881798;
+    
+  }
+
+  .journals .slick-prev:before,
+  .slick-next:before {
+    color: #1eb2a6;
+  }
+
+  .journals .slick-prev{
+    top:130px;
+    
+  }
+
+  .journals .slick-next{
+    top: 130px;
+    /* left: 1416px; */
+  }
+
+  @media screen and (max-width: 375px) {
+
+    .journals .admin{
+        font-size: 12px;
+    } 
+    
+  }
+
+

@@ -75,3 +75,21 @@
       flex-direction: column;
     } */
   }
+  @media screen and (max-width: 768px) {
+    .contacts .container {
+      flex-direction: column;
+    }
+    .contacts iframe {
+      height: 50vh;
+    }
+    .contacts .row {
+      width: 100%;
+    }
+    }
+
+    /* form .flexSB{
+      display: flex;
+      flex-direction: column;
+    } */
+  }
+  }
